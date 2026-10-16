@@ -21,7 +21,7 @@ For content changes, edit `index.html`. For appearance changes, edit the stylesh
 
 To preview locally, serve this folder with any static HTTP server. Check both desktop and mobile layouts before publishing changes.
 
-The public website retains the approved draft content, including two `XXX` citation placeholders. The separately hosted private review website is unaffected by edits to this repository.
+The public website includes APA 7th references for the benchmark and NP-hardness discussions. The separately hosted private review website is unaffected by edits to this repository.
 
 ## Permissions
 
