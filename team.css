@@ -1,0 +1,35 @@
+/* Compact team directory; preserve original portrait crops. */
+.profile-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  align-items: start;
+}
+.profile-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  min-height: 105px;
+}
+.profile-photo {
+  flex: 0 0 84px;
+  width: 84px;
+  height: 105px;
+}
+.profile-card h3 {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.4;
+  overflow-wrap: break-word;
+}
+.profile-card-name-only {
+  padding-left: 100px;
+}
+@media (max-width: 1200px) {
+  .profile-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 560px) {
+  .profile-grid { grid-template-columns: 1fr; gap: 20px; }
+  .profile-card { min-height: 90px; }
+  .profile-photo { flex-basis: 72px; width: 72px; height: 90px; }
+  .profile-card-name-only { padding-left: 88px; min-height: 44px; }
+}

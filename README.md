@@ -6,7 +6,8 @@ Public website: https://liaoxithu.github.io/madeheilbronn/
 
 ## Website files
 
-- `index.html` contains the complete, editable project page, including its five team profiles and book references.
+- `index.html` contains the complete, editable project page, including its seven team entries and references.
+- `team.css` controls the compact portrait and name layout.
 - `_next/static/` contains the compiled stylesheet. No JavaScript or server is required.
 - `people/` contains the supplied portrait photographs. CSS framing preserves the original images.
 - `.nojekyll` allows GitHub Pages to serve the static assets, including the `_next` folder.
