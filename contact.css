@@ -1,0 +1,47 @@
+/* A calm, aligned contact section with a single content column. */
+#contact {
+  grid-template-columns: 1fr 3.3fr;
+  align-items: start;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+#contact .section-label {
+  padding-top: 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+#contact .contact-copy {
+  min-width: 0;
+  max-width: 760px;
+}
+#contact h2 {
+  margin: 0 0 20px;
+  font-size: 32px;
+  line-height: 1.25;
+  letter-spacing: -.025em;
+}
+#contact .contact-copy p {
+  margin: 0 0 24px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.65;
+}
+#contact .contact-email {
+  display: inline-block;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 1px;
+}
+#contact .contact-email:hover { text-decoration-thickness: 2px; }
+#contact .contact-email:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 6px;
+}
+@media (max-width: 1100px) {
+  #contact { grid-template-columns: 1fr; gap: 28px; padding-top: 56px; padding-bottom: 56px; }
+  #contact h2 { font-size: 28px; }
+}
