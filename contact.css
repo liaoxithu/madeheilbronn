@@ -1,4 +1,8 @@
-/* A calm, aligned contact section with a single content column. */
+/* Consistent section labels and a calm, aligned contact section. */
+.section-label {
+  font-size: 14px;
+  line-height: 1.5;
+}
 #contact {
   grid-template-columns: 1fr 3.3fr;
   align-items: start;
@@ -7,8 +11,6 @@
 }
 #contact .section-label {
   padding-top: 0;
-  font-size: 14px;
-  line-height: 1.5;
 }
 #contact .contact-copy {
   min-width: 0;
